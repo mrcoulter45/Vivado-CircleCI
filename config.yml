@@ -35,9 +35,9 @@ jobs:
       - checkout # check out the code in the project directory
       - run: ls -l ~
       - run: ls -l /home/vivado/.Xilinx/
-      - run: vivado -version
       - run: echo 'export XILINX_VIVADO="/opt/Xilinx/Vivado/2018.3"' >> $BASH_ENV
       - run: echo 'export PATH="/opt/Xilinx/Vivado/2018.3/bin:$PATH"' >> $BASH_ENV
+      - run: vivado -version
       - run: source $BASH_ENV
       - run: pwd
       - run: printenv
