@@ -1,0 +1,138 @@
+INCREMENT axi_usb2_device xilinxd 2018.11 permanent uncounted \
+	D8A949622465 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,axi_usb2_device,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT can xilinxd 2018.11 permanent uncounted 8AA9C4488A7F \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,can,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT canfd xilinxd 2018.11 permanent uncounted 077A1231E2A6 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,canfd,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT cmac xilinxd 2018.11 permanent uncounted FC52E9B16EE4 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,cmac,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT cmac_an_lt xilinxd 2018.11 permanent uncounted B0F03B21B35E \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,cmac_an_lt,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT cmac_usplus xilinxd 2018.11 permanent uncounted \
+	B59CA17AF372 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,cmac_usplus,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT cpri xilinxd 2018.11 permanent uncounted 1B4109EA1E01 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,cpri,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT displayport xilinxd 2018.11 permanent uncounted \
+	7F222D8F0444 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,displayport,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT xxv_eth_mac_pcs xilinxd 2018.11 permanent uncounted \
+	134B71023C08 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,xxv_eth_mac_pcs,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT xxv_eth_basekr xilinxd 2018.11 permanent uncounted \
+	DF7E07B57B06 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,xxv_eth_basekr,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT interlaken xilinxd 2018.11 permanent uncounted 4047C048DB20 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,interlaken,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT jesd204 xilinxd 2018.11 permanent uncounted 66FFAD611788 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,jesd204,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT l_eth_mac_pcs xilinxd 2018.11 permanent uncounted \
+	EA20A6AAF6FE \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,l_eth_mac_pcs,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT l_eth_basekr xilinxd 2018.11 permanent uncounted \
+	BC099F2F2E3A \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,l_eth_basekr,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT l_eth_baser xilinxd 2018.11 permanent uncounted \
+	4B56A08D662D \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,l_eth_baser,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT nvmehc xilinxd 2018.11 permanent uncounted 14F99A5CAFBF \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,nvmehc,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT pci32 xilinxd 2018.11 permanent uncounted F098BAFF37A4 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,pci32,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT pci64 xilinxd 2018.11 permanent uncounted 35EEFF964852 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,pci64,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT roe_framer xilinxd 2018.11 permanent uncounted 7F986FB011CD \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,roe_framer,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT spdif xilinxd 2018.11 permanent uncounted 967FDE3633DE \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,spdif,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT srio_phylog_io xilinxd 2018.11 permanent uncounted \
+	10C2FA00F682 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,srio_phylog_io,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT tsn_endpoint_eth_mac xilinxd 2018.11 permanent uncounted \
+	4C0B07192D3A \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,tsn_endpoint_eth_mac,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT tsn_bridged_endpoint_eth_mac xilinxd 2018.11 permanent \
+	uncounted 105DF02CEF72 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,tsn_bridged_endpoint_eth_mac,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT ten_gig_eth_mac xilinxd 2018.11 permanent uncounted \
+	7965D0C52F63 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,ten_gig_eth_mac,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT ten_gig_eth_pcs_pma_basekr xilinxd 2018.11 permanent \
+	uncounted 787D67D277A1 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,ten_gig_eth_pcs_pma_basekr,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT tri_mode_eth_mac xilinxd 2018.11 permanent uncounted \
+	6F34BFE5154D \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,tri_mode_eth_mac,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT eth_avb_endpoint xilinxd 2018.11 permanent uncounted \
+	F2B2462D0F2C \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,eth_avb_endpoint,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT usxgmii_mac_pcs xilinxd 2018.11 permanent uncounted \
+	DB90173B7F3F \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,usxgmii_mac_pcs,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT v_ccm xilinxd 2018.11 permanent uncounted 772F9DFA4AE0 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,v_ccm,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT v_cresample xilinxd 2018.11 permanent uncounted \
+	B7A42B43BD47 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,v_cresample,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT v_deinterlacer xilinxd 2018.11 permanent uncounted \
+	6CFCE94B7E31 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,v_deinterlacer,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT v_enhance xilinxd 2018.11 permanent uncounted F0097D4CC4E7 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,v_enhance,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT v_gamma xilinxd 2018.11 permanent uncounted 58C4DDEC12C7 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,v_gamma,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT v_hdmi xilinxd 2018.11 permanent uncounted E121C2EE0DFF \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,v_hdmi,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT v_osd xilinxd 2018.11 permanent uncounted 40410E2BD164 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,v_osd,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT v_rgb2ycrcb xilinxd 2018.11 permanent uncounted \
+	806F120E77B4 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,v_rgb2ycrcb,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT v_ycrcb2rgb xilinxd 2018.11 permanent uncounted \
+	2DB45333CCC4 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,v_ycrcb2rgb,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT x_eth_mac xilinxd 2018.11 permanent uncounted 5779EDF9F004 \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,x_eth_mac,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
+INCREMENT xxv_tsn_802d1cm xilinxd 2018.11 permanent uncounted \
+	0FBAF7B6A24F \
+	VENDOR_STRING=License_Type:Design_Linking;ipman,xxv_tsn_802d1cm,ip,permanent,_0_0_0 \
+	HOSTID=ANY ISSUER="Xilinx Inc" START=06-Dec-2018 TS_OK
