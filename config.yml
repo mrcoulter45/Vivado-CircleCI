@@ -1,0 +1,60 @@
+#
+# Copyright (c) 2019, Arm Limited and affiliates.
+# SPDX-License-Identifier: Apache-2.0
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+version: 2
+jobs:
+  build_iverilog:
+    docker:
+      - image: ubuntu:18.04
+    steps:
+      - checkout # check out the code in the project directory
+      - run: apt-get update
+      - run: apt-get install -y verilog
+      - run:
+            command: ./build_and_run_all.sh
+            working_directory: sim
+
+  build_vivado:
+    docker:
+      - image: mrcoulter45/vivado-ci
+    steps:
+      - checkout # check out the code in the project directory
+      - run: ls -l ~
+      - run: ls -l /home/vivado/.Xilinx/
+      - run: vivado -version
+      - run: echo 'export XILINX_VIVADO="/opt/Xilinx/Vivado/2018.3"' >> $BASH_ENV
+      - run: echo 'export PATH="/opt/Xilinx/Vivado/2018.3/bin:$PATH"' >> $BASH_ENV
+      - run: source $BASH_ENV
+      - run: pwd
+      - run: printenv
+      - run: rm -rf project_basys3/
+      # - run: echo -e "source generate_project_basys3.tcl\ncd /home/vivado/ci-test-shield-fpga/project_basys3\nlaunch_runs synth_1\nwait_on_run synth_1\nlaunch_runs impl_1\nwait_on_run impl_1\nlaunch_runs impl_1 -to_step write_bitstream\nwait_on_run impl_1\nexit\n" > synth-impl-bit.tcl
+      - run: cat synth-impl-bit.tcl
+      - run: vivado -mode tcl -source synth-impl-bit.tcl
+      - run: echo 'done'
+
+workflows:
+  version: 2
+  build_all:
+    jobs:
+      - build_vivado
+      - build_iverilog
+
+
+
+            # command: vivado -mode tcl -source synth.tcl
+            # no_output_timeout: 30m
