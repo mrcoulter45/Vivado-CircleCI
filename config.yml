@@ -44,7 +44,9 @@ jobs:
       - run: rm -rf project_basys3/
       # - run: echo -e "source generate_project_basys3.tcl\ncd /home/vivado/ci-test-shield-fpga/project_basys3\nlaunch_runs synth_1\nwait_on_run synth_1\nlaunch_runs impl_1\nwait_on_run impl_1\nlaunch_runs impl_1 -to_step write_bitstream\nwait_on_run impl_1\nexit\n" > synth-impl-bit.tcl
       - run: cat synth-impl-bit.tcl
-      - run: vivado -mode tcl -source synth-impl-bit.tcl
+      - run:
+            command: vivado -mode tcl -source synth-impl-bit.tcl
+            no_output_timeout: 30m
       - run: echo 'done'
 
 workflows:
